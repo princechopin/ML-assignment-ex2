@@ -42,10 +42,10 @@ xlabel('Exam 1 score')
 ylabel('Exam 2 score')
 
 % Specified in plot order
-try 
-    legend('y = 1', 'y = 0', 'Test me')
-catch
-end_try_catch
+% try 
+    legend('Admitted', 'Not admitted')
+% catch
+% end_try_catch
 hold off;
 
 fprintf('\nProgram paused. Press enter to continue.\n');
